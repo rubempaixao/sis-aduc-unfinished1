@@ -1,0 +1,308 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+body {
+    background-color: #f9f9f9;
+}
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(94, 41, 154, .8);
+    z-index: 2;
+    position: relative;
+}
+header .container {
+    position: relative;
+}
+header .header-black {
+    background-color: #000;
+    height: 40px;
+}
+header .header-black li {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px;
+}
+header .header-black li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+header #logotipo {
+    position: absolute;
+    top: 35px;
+    border-radius: 1000px;
+    height: 120px;
+    width: 200px;
+}
+#menu {
+    margin: 12px -247px;
+}
+#menu li {
+    display: inline-block;
+    font-family: "OpenSans";
+}
+#menu li.search {
+	width: 182px;
+}
+#menu li.search input {
+    background-color: #5C2D90;
+    color: #fff;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+}
+#menu li.search ::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, .5);	
+}
+#menu li.search button {
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+}
+#menu li.search button i {
+	font-size: 14px;
+	/*color: #fff;*/
+	color: rgba(255, 255, 255, .5);
+}
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+#menu li.search .input-group {
+	top: 8px;
+}
+#banner {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: url(../img/ConJovem_1.png) no-repeat;
+    background-position: -23px 0px;
+    top: 0px;;
+    bottom: 20px;
+}
+#banner h1 {
+	color: #fff;
+	top: 300px;
+	position: relative;
+	font-size: 92px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'OpenSans-Light';
+	margin-left: 50px;
+}
+#banner h1 small {
+	font-size: 32px;
+	display: block;
+	color: #fff;
+	font-family: 'OpenSans';
+	font-weight: bold;
+}
+#news {
+    position: relative;
+    top: -290px;
+    bottom: 200px;
+}
+#news h2 {
+	color: #5E2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr {
+    border: #FDE192 solid 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+#news .thumbnails{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#news .thumbnails h3 {
+    color: #5E299A;
+    font-size: 18px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#news .thumbnails a {
+    color: #A7A7A7;
+    margin-left: 1px;
+}
+#news .thumbnails time {
+    color: #A7A7A7;
+    font-size: 18px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+}
+#look {
+    height: 300px;
+    width: 100%;
+    background-color: #1889c1;
+}
+/*#look .row-cinza-claro {
+    height: 200px;
+    background-color: #171F26;
+}*/
+#look .row-pequena {
+    height: 60px;
+    background-color: #3D375A;
+    border-top: #242D37 2px solid;
+    width: 100%;
+}
+#look .fotos {
+/*    background-color: #F4524D;*/
+    height: 100px;
+    width: 100%;
+    margin-top: -140px;
+    display: inline;
+/*    height: 200px;*/
+    background-color: #171F26;
+    
+}
+#look .col- {
+    height: 230px;
+}
+#estatisticas {
+	background-color: #5E299A;
+	width: 100%;
+	height: 200px;
+        margin-top: 0px;
+}
+#estatisticas p {
+	color: #FDE092;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Light';
+	font-size: 64px;
+	margin-top: 36px;
+}
+#estatisticas p small{
+	color: #fff;
+	font-size: 24px;
+	display: block;
+}
+#quemSomos {
+    background-color: #1889c1; 
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;    
+}
+#quemSomos h3 {
+    color: #FDE092;
+    text-align: center;
+    font-family: 'OpenSans-Light';
+    font-size: 33px;
+    margin-top: 36px;
+}
+#quemSomos hr {
+    border: #FDE092 1px solid;
+    width: 100px;
+    margin: 0 auto;
+}
+#quemSomos p {
+    margin-top: 20px;
+    color: #fff;  
+}
+#quemSomos .leitura {
+    
+}
+#quemSomos .referencia {
+    margin-top: 20px;
+    color: #FDE092;
+    font-weight: bold;
+    font-family: 'OpenSans';
+    font-size: 10px;
+    text-align: right;
+}
+#quemSomos a {
+    color: #FDE092;
+}
+#quemSomos h5 {
+    color: #FDE092;
+    text-align: left;
+    font-family: 'OpenSans-Light';
+    font-size: 20px;
+    margin-top: 20px;
+}
+#quemSomos .video {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 42px;
+    margin-top: 10px;
+    border: #fff 1px solid;
+}
+#bannerInferior {
+    line-height: 60px;
+}
+#bannerInferior .row .imagens {
+   margin-top: 20px; 
+}
+
+footer {
+    margin-top: 110px;
+}
+footer .row {
+    width: 101.1%;
+}
+footer .row p {
+    line-height: 60px;
+    margin-bottom: 0px;
+}
+footer .row-cinza-claro {
+    height: 200px;
+    background-color: #171F26;
+}
+footer .row-cinza-escuro {
+    height: 60px;
+    background-color: #11171D;
+    border-top: #242D37 2px solid;
+}
+footer .pull-left {
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+    color: #666;
+}
+footer .text-roxo {
+    color: #623291;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+}
+footer #logoRodape {
+    position: absolute;
+    top: 35px;
+    border-radius: 1000px;
+    height: 120px;
+    width: 190px;
+    margin-left: -95px;
+}
+
+
+
+
+
+#look .col-red {
+    border: red 2px solid;
+    height: 230px;
+}
+/*
+footer .col-yellow {
+    border: yellow 2px solid;
+}*/
+
+/*
+#news .row .col-md-3 {
+	bottom: -20px;
+}
+*/

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ADUC - Assembléia de Deus Unidade Cristã</title>
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styles_aduc1.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img id="logoRodape" src="img/logo/ConJovem_Frib.png" alt="Logotipo">
+            </div>
+            <div class="header-black">
+                <div class="container">
+                    <ul class="pull-right">
+                        <li><a href="#" class="pull-right"><img src="img/facebook-icone.png"></a></li>
+                        <li><a href="#" class="pull-right"><img src="img/linkedin-icone.png"></a></li>
+                        <li><a href="#" class="pull-right"><img src="img/twitter-icone.png"></a></li>
+                    </ul>
+<!--                    <ul class="pull-right">
+                        <li class="club-01"><a href="#"></a></li>
+                        <li class="club-02"><a href="#"></a></li>
+                        <li class="club-03"><a href="#"></a></li>
+                        <li class="club-04"><a href="#"></a></li>
+                        <li class="club-05"><a href="#"></a></li>
+                        <li class="club-06"><a href="#"></a></li>
+                        <li class="club-07"><a href="#"></a></li>
+                        <li class="club-08"><a href="#"></a></li>
+                        <li class="club-09"><a href="#"></a></li>
+                        <li class="club-10"><a href="#"></a></li>
+                        <li class="club-11"><a href="#"></a></li>
+                        <li class="club-12"><a href="#"></a></li>
+                        <li class="club-13"><a href="#"></a></li>
+                        <li class="club-14"><a href="#"></a></li>
+                        <li class="club-15"><a href="#"></a></li>
+                        <li class="club-16"><a href="#"></a></li>
+                        <li class="club-17"><a href="#"></a></li>
+                        <li class="club-18"><a href="#"></a></li>
+                        <li class="club-19"><a href="#"></a></li>
+                        <li class="club-20"><a href="#"></a></li>
+                        <li class="club-21"><a href="#"></a></li>
+                        <li class="club-22"><a href="#"></a></li>
+                    </ul>-->
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <nav id="menu" class="pull-right">
+                        <ul>
+                            <li><a href="reclameAqui.html">Eventos</a></li>
+                            <li><a href="#">Notícias</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="http://sis-aduc/index.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeria</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <a class="dropdown-item" href="fotos.php">Fotos</a>
+                                    <a class="dropdown-item" href="videos.php">Vídeos</a>
+                                    <a class="dropdown-item" href="galeria.php">YouTube</a>
+                                </div>
+                            </li>
+                            <li class="search">
+                                <div class="input-group">
+                                  <input type="search" placeholder="search">
+                                  <span class="input-group-btn">
+                                    <button class="" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                  </span>
+                                </div><!-- /input-group -->
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <section>
+            <div id="banner">
+<!--                <h1>ADUC<small>Assembléia de Deus Unidade Cristã</small></h1>-->
+            </div>
+
+            <form class="form-horizontal container" method="POST" action="reclameAquiRecebe.php">
+                <div class="panel panel-default">
+                <legend class="legend-class">Posso ajudar?</legend>
+                    <div class="form-group">
+                        <label for="nome" class="col-sm-4 control-label">*Nome</label>
+                        <div class="col-sm-4">
+                            <input class="col-sm-10 form-control" type="text" name="nome"><p/>
+                        </div><!-- col-sm-4 -->
+                    </div><!-- form-group -->
+                    <div class="form-group">
+                        <label for="email" class="col-sm-4 control-label">*E-mail</label>
+                        <div class="col-sm-4">
+                            <input class="col-sm-10 form-control" type="email" name="email" placeholder="exemplo@mail.com.br">
+                        </div><!-- col-sm-4 -->
+                    </div><!-- form-group -->
+                    <div class="form-group">
+                        <label for="fone" class="col-sm-4 control-label">Telefone</label>
+                        <div class="col-sm-4">
+                            <input class="col-sm-10 form-control" type="text" name="fone">
+                        </div><!-- col-sm-4 -->
+                    </div><!-- form-group -->
+                    <div class="form-group">
+                        <label for="assunto" class="col-sm-4 control-label">Assunto</label>
+                        <div class="col-sm-4">
+                            <input class="col-sm-10 form-control" type="text" name="assunto">
+                        </div><!-- col-sm-4 -->
+                    </div><!-- form-group -->
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-4">
+                            <textarea class="form-control" rows="4" placeholder="Fale conosco..."></textarea>
+                        </div><!-- col-sm-10 -->
+                    </div><!-- form-group -->
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-10"><p>
+                            <button type="submit" class="btn btn-primary">Enviar</button> | 
+                            <a href="index.php" class="btn btn-danger">Cancelar</a>
+                        </div><!-- col-sm-offset-2 -->
+                    </div><!-- form-group -->
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-10">
+                            <h6>Os campos marcados com (*) são obrigatórios</h6>
+                        </div>
+                    </div>
+                </div><!-- panel-default -->
+            </form>
+            <div class="text-container">
+                
+            </div>
+        </section>
+        <footer>
+            <div class="row row-cinza-claro">
+                
+            </div>
+            <div class="row row-cinza-escuro">
+                
+            </div>            
+        </footer>
+        
+        <script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
+

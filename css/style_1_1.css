@@ -1,0 +1,531 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+body {
+    background-color: #f9f9f9;/*    background: url(../img/ConJovem_1.png) no-repeat;*/
+}
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(94, 41, 154, .8);
+    z-index: 2;
+    position: relative;
+}
+header .container {
+    position: relative;
+}
+header .header-black {
+    background-color: #000;
+    height: 40px;
+}
+header .header-black li {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px 8px;
+}
+header .header-black li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+header #logotipo {
+    position: absolute;
+    top: 35px;
+    border-radius: 1000px;
+    height: 100px;
+    width: 200px;
+}
+#menu {
+    margin: 12px -247px;
+}
+#menu li {
+    display: inline-block;
+    font-family: "OpenSans";
+}
+#menu li.search {
+	width: 182px;
+        
+}
+#menu li.search input {
+    background-color: #5C2D90;
+    color: #fff;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 2px;
+}
+#menu li.search ::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, .5);	
+}
+#menu li.search button {
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+}
+#menu li.search button i {
+	font-size: 14px;
+	/*color: #fff;*/
+	color: rgba(255, 255, 255, .5);
+}
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+#menu li.search .input-group {
+	top: 8px;
+}
+#banner {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: url(../img/ConJovem_1.png) no-repeat;
+    background-position: -23px 0px;
+    top: -10px;;
+    bottom: 20px;
+}
+#banner h4 {
+	color: #fff;
+	top: 275px;
+        left: 0px;
+	position: relative;
+	font-size: 12px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'OpenSans-Light';
+	margin-left: 100px;       
+        
+}
+#banner h4 small {
+	font-size: 9px;
+	display: block;
+	color: #fff;
+	font-family: 'OpenSans';
+	font-weight: bold;
+        margin-left: 1px;
+        
+}
+#news {
+    position: relative;
+    top: -290px;
+    bottom: 300px;
+}
+#news h2 {
+	color: #5E2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr {
+    border: #FDE192 solid 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+#news .thumbnails{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#news .thumbnails h3 {
+    color: #5E299A;
+    font-size: 18px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#news .thumbnails a {
+    color: #A7A7A7;
+    margin-left: 1px;
+}
+#news .thumbnails time {
+    color: #A7A7A7;
+    font-size: 18px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+}
+/*#bannerInf {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: url(../img/missoes.jpg) no-repeat;
+    background-position: -23px 0px;
+    top: 0px;;
+    bottom: 20px;
+}*/
+#look {
+    height: 300px;
+    width: 100%;
+    background-color: #1889c1;
+}
+
+/*#look .row-cinza-claro {
+    height: 200px;
+    background-color: #171F26;
+}*/
+#look .row-pequena {
+    height: 60px;
+    background-color: #3D375A;
+    border-bottom: #242D37 2px solid;
+    width: 101.1%;
+}
+#look .col-submenu {
+    height: 57px;
+    text-align: center;
+    margin-top: -16px;
+/*    border: yellow 2px solid;*/
+}
+#look .col-submenu a {
+    top: 0px;
+}
+#look .col-submenu p {
+    color: #fff;
+    margin: 15px;
+    margin-left: 80px;
+}
+#look .row-tituloMenu {
+    background-color: #fff;
+    height: 45px;
+    width: 101.1%;
+}
+#look .col-tituloMenu {
+    height: 45px;
+}
+#look .col-tituloMenu h2 {
+    color: #3D375A;
+    text-align: center;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+#look .row-programacao {
+/*    background-color: #F4524D;*/
+    height: 100px;
+    width: 100%;
+    margin-top: -140px;
+    display: inline;
+/*    background-color: #171F26;*/
+    /*    height: 200px;*/    
+}
+#look .col-prog {
+/*    border: red 2px solid;*/
+    height: 232px;
+    margin-top: -34px;
+    width: 292px;
+    text-align: center;
+    line-height: 19px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #fff;
+}
+#look .col-prog h3 {
+    font-weight: bold;
+}
+#look .col-prog h5 {
+    font-family: 'OpenSans';
+    font-size: 14px;
+}
+#estatisticas {
+	background-color: #5E299A;
+	width: 100%;
+	height: 200px;
+        margin-top: 0px;
+        border-bottom: #fff 1px solid;
+        border-top: #fff 1px solid;
+}
+#estatisticas p {
+	color: #FDE092;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Light';
+	font-size: 64px;
+	margin-top: 36px;
+        margin-left: 80px;
+}
+#estatisticas p small{
+	color: #fff;
+	font-size: 24px;
+	display: block;
+}
+#quemSomos {
+    background-color: #1889c1; 
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;   
+}
+#quemSomos .sobre-nos h3 {
+    color: #FDE092;
+    text-align: center;
+    font-family: 'OpenSans-Light';
+    font-size: 33px;
+    margin-top: 36px;
+}
+#quemSomos .sobre-nos hr {
+    border: #FDE092 1px solid;
+    width: 100px;
+    margin: 0 auto;
+}
+#quemSomos .sobre-nos p {
+    margin-top: 20px;
+    color: #fff;  
+}
+#quemSomos .sobre-nos a {
+    color: #FDE092;
+    margin-left: 2px;
+}
+
+#quemSomos .leitura h3 {
+    color: #FDE092;
+    text-align: center;
+    font-family: 'OpenSans-Light';
+    font-size: 33px;
+    margin-top: 36px;
+}
+#quemSomos .leitura hr {
+    border: #FDE092 1px solid;
+    width: 100px;
+    margin: 0 auto;
+}
+#quemSomos .leitura p {
+    margin-top: 20px;
+    color: #fff;  
+}
+#quemSomos .leitura a {
+    color: #FDE092;
+    margin-left: 2px;
+}
+
+#quemSomos .leitura .referencia {
+    margin-top: 20px;
+    color: #FDE092;
+    font-weight: bold;
+    font-family: 'OpenSans';
+    font-size: 10px;
+    text-align: right;
+}
+#quemSomos a {
+    color: #FDE092;
+}
+
+#quemSomos h5 {
+    color: #FDE092;
+    text-align: left;
+    font-family: 'OpenSans-Light';
+    font-size: 20px;
+    margin-top: 20px;
+}
+#quemSomos .video-conJovem h3 {
+    color: #FDE092;
+    text-align: center;
+    font-family: 'OpenSans-Light';
+    font-size: 33px;
+    margin-top: 36px;
+}
+#quemSomos .video-conJovem hr {
+    border: #FDE092 1px solid;
+    width: 100px;
+    margin: 0 auto;
+}
+#quemSomos .video {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 42px;
+    margin-top: 17px;
+    border: #fff 1px solid;
+}
+#bannerInferior {
+    line-height: 60px;
+}
+#bannerInferior .row .imagens {
+   margin-top: 20px;
+   margin-left: 10px;
+}
+
+footer {
+    margin-top: 50px;
+}
+footer .row {
+    width: 101.1%;
+}
+footer .row p {
+    line-height: 60px;
+    margin-bottom: 0px;
+}
+footer .row-cinza-claro {
+    height: 200px;
+    background-color: #171F26;
+}
+footer .row-cinza-claro .endereco {
+    border-left: #242D37 1px solid;    
+    height: 200px;
+}
+footer .row-cinza-claro .endereco h3 {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: bold;
+    color: #999;
+    text-align: justify;
+    padding-bottom: 7px;
+    border-bottom: #242D37 1px solid;
+}
+footer .row-cinza-claro .endereco h5 {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    color: #ccc;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: -3px;
+}
+footer .row-cinza-claro address {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    color: #ccc;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: -3px;
+}
+footer .row-cinza-claro address span {
+    display: inline-block;
+}
+footer .row-cinza-claro address i {
+    position: relative;
+    top: -18px;
+}
+footer .endereco i {
+    color: #9B9B9B;
+    font-size: 16px;
+    margin: 0 6px;
+}
+footer .row-cinza-claro .endereco a {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    color: #ccc;
+    text-align: justify;
+    margin-left: 0px;
+    margin-bottom: -3px;
+}
+
+footer .row-cinza-claro .mapa-site {
+    border-left: #242D37 1px solid;
+    height: 200px;
+}
+footer .row-cinza-claro .mapa-site h3 {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: bold; /*Negrito*/
+    color: #999;
+    text-align: justify;
+    padding-bottom: 7px;
+    border-bottom: #242D37 1px solid;
+}
+footer .row-cinza-claro .mapa-site ul {
+    list-style: none; /*Tira as marcações do <li>*/
+}
+footer .row-cinza-claro .mapa-site li {
+    margin-left: -25px;
+}
+footer .row-cinza-claro .mapa-site li h5, a {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    color: #ccc;
+    text-align: justify;
+    margin-left: -15px;
+    margin-bottom: -3px;
+}
+footer .mapa-site .fa {
+    margin: 0 6px;
+}
+footer .row-cinza-claro .col-eventos {
+    border-left: #242D37 1px solid;
+    height: 200px;
+}
+footer .row-cinza-claro .col-eventos h3 {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: bold; /*Negrito*/
+    color: #999;
+    text-align: justify;
+    padding-bottom: 7px;
+    border-bottom: #242D37 1px solid;
+}
+footer .row-cinza-claro .col-eventos ul {
+    list-style: none; /*Tira as marcações do <li>*/
+}
+footer .row-cinza-claro .col-eventos li {
+    margin-left: -25px;
+}
+footer .row-cinza-claro .col-eventos li h5 {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    color: #ccc;
+    text-align: justify;
+    margin-left: -15px;
+    margin-bottom: -3px;
+}
+footer .row-cinza-escuro {
+    height: 60px;
+    background-color: #11171D;
+    border-top: #242D37 2px solid;
+}
+footer .pull-left {
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+    color: #666;
+}
+footer .text-roxo {
+    color: #623291;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+}
+footer #logoRodape {
+    position: absolute;
+    top: 35px;
+    border-radius: 1000px;
+    height: 120px;
+    width: 190px;
+    margin-left: -95px;
+}
+
+
+
+
+
+#look .col-red {
+/*    border: red 2px solid;*/
+    height: 232px;
+    margin-top: -34px;
+    width: 292px;
+    text-align: center;
+    line-height: 19px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    
+}
+#look .col-red p {
+    color: #fff;
+    margin: 15px;
+}
+
+#look .col-yellow {
+    border: yellow 2px solid;
+    height: 57px;
+    text-align: center;
+}
+#look .col-yellow p {
+    color: #fff;
+    margin: 15px;
+}
+
+/*
+#news .row .col-md-3 {
+	bottom: -20px;
+}
+*/
